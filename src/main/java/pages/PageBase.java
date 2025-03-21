@@ -40,14 +40,14 @@ public class PageBase {
          driver.findElement(element).click();
      }
 
-     public String getCurrentURL(){
-         return driver.getCurrentUrl().toString();
-     }
+//     public String getCurrentURL(){
+//         return driver.getCurrentUrl().toString();
+//     }
 
-    public void scrollDown() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,1070)");
-    }
+//    public void scrollDown() {
+//        JavascriptExecutor js = (JavascriptExecutor) driver;
+//        js.executeScript("window.scrollBy(0,1070)");
+//    }
     public void selectfromDropDownList(By element,String option){
         Select options = new Select(driver.findElement(element));
         options.selectByVisibleText(option);

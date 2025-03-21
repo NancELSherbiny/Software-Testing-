@@ -1,10 +1,9 @@
 package tests;
 
-import org.testng.Assert;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.ApplyLeave;
-import pages.DashboardPage;
 import pages.LoginPage;
 
 public class ApplyLeaveTest extends TestBase{
